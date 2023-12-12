@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Cherry+Swash|Lilita+One|Exo|Linefont");
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #cdb3ff;
+  font-family: 'Exo';
+  color: #000000;
+}
+h1 {
+  font-size: 65px;
+  font-family: 'Lilita One';
+  color: #0c353b;
+}
+li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+#spacer {
+  font-family: 'Linefont';
+}
+.backbutton {
+  box-shadow:inset 0px 1px 0px 0px #9c0c0c;
+  background:linear-gradient(to bottom, #ff0000 5%, #730808 100%);
+  background-color:#ff0000;
+  border-radius:6px;
+  border:1px solid #ff8f8f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Cherry Swash';
+  font-size:11px;
+  font-weight:bold;
+  padding:3px 11px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #000000;
+}
+.backbutton:hover {
+  background:linear-gradient(to bottom, #730808 5%, #ff0000 100%);
+  background-color:#730808;
+}
+.backbutton:active {
+  position:relative;
+  top:1px;
+}
+.newline {
+  margin-bottom: 20px;
+}

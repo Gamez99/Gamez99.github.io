@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Cherry+Swash|Linefont|Nosifer|Playpen+Sans");
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  font-family: 'Nosifer';
+  font-size: 45px;
+  color: #033c4f;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cce6ff;
+  color: black;
+}
+button {
+  box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color:#79bbff;
+  border-radius:6px;
+  border:1px solid #84bbf3;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Playpen Sans';
+  font-size:18px;
+  font-weight:bold;
+  padding:9px 27px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+}
+button:hover {
+  background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color:#378de5;
+}
+button:active {
+  position:relative;
+  top:1px;
+}
+a {
+  color: #b62525;
+  text-decoration: none;
+  font-size: 17px;
+}
+a:hover {
+  text-decoration: underline;
+  color: #3cc700;
+}
+#ccfp {
+  font-family: 'Cherry Swash';
+}
+#spacer {
+  font-family: 'Linefont';
+  font-size: 22px;
+}
+.newline {
+  margin-bottom: 20px;
+}
+.right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
