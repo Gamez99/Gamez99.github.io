@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative|Permanent+Marker|Walter+Turncoat");
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+
+body { 
+  height: 100vh; 
+  width: 100vw; 
+  background-image: linear-gradient( 
+      to top, #c9b3ff, #80bdff); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-family: 'Signika Negative';
+} 
+
+.board { 
+  height: 85vh; 
+  width: 80vw; 
+  background-image: linear-gradient( 
+      to right, #8c7463, #8a8466); 
+  border-radius: 14px; 
+} 
+
+.ball { 
+  height: 30px; 
+  width: 30px; 
+  border-radius: 50%; 
+  position: fixed; 
+  top: calc(50% - 15px); 
+  left: calc(50% - 15px); 
+} 
+
+.ball_effect { 
+  height: 100%; 
+  width: 100%; 
+  border-radius: 100px; 
+  animation: spinBall 0.1s linear infinite; 
+  box-shadow: inset 0 0 18px #fff, 
+    inset 6px 0 18px #59ff00, 
+    inset -6px 0 18px #14b1ff, 
+    inset 6px 0 30px #59ff00, 
+    inset -6px 0 30px #14b1ff, 
+    0 0 18px #fff, -4px 0 18px
+    #59ff00, 4px 0 18px #14b1ff; 
+} 
+
+@keyframes spinBall { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); 
+  } 
+} 
+
+.paddle { 
+  height: 100px; 
+  width: 18px; 
+  border-radius: 50%; 
+  position: fixed; 
+} 
+
+.paddle_1 { 
+  top: calc(7.5vh + 55px); 
+  left: calc(10vw + 30px); 
+  box-shadow: inset 0 0 18px #fff1a8, 
+    inset -6px 0 18px #ffd814, 
+    inset 6px 0 18px #daff24, 
+    inset -6px 0 30px #ffd814, 
+    inset 6px 0 30px #daff24, 
+    0 0 18px #fff, 4px 0 18px
+    #ffd814, -4px 0 18px #daff24; 
+} 
+
+.paddle_2 { 
+  top: calc(85vh + 7.5vh - 100px - 55px); 
+  right: calc(10vw + 30px); 
+  box-shadow: inset 0 0 18px #ffbf94, 
+    inset 6px 0 18px #e25f08, 
+    inset -6px 0 18px #702d00, 
+    inset 6px 0 30px #e25f08, 
+    inset -6px 0 30px #702d00, 
+    0 0 18px #fff, -4px 0 18px
+    #e25f08, 4px 0 18px #702d00; 
+} 
+
+.player_1_score { 
+  height: 50px; 
+  width: 50px; 
+  color: #ffd814; 
+  position: fixed; 
+  left: 30vw; 
+  margin-top: 30px;
+  font-family: 'Permanent Marker';
+} 
+
+.player_2_score { 
+  height: 50px; 
+  width: 50px; 
+  color: #e25f08; 
+  position: fixed; 
+  left: 70vw; 
+  margin-top: 30px; 
+  font-family: 'Permanent Marker';
+} 
+
+.message { 
+  position: fixed; 
+  /* color: #48426d; */
+  height: 10vh; 
+  width: 30vw; 
+  color: #5154a9; 
+  left: 38vw; 
+  margin: 30px auto auto auto; 
+  font-family: 'Walter Turncoat';
+}
