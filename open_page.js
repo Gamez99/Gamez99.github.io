@@ -4,7 +4,7 @@ function cookie_clicker() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/cookie-clicker/en.html';
+    window.location.href = '/cookie-clicker/en';
   } else {
     alert("Error");
   }
@@ -16,7 +16,7 @@ function snake() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/snake/en.html';
+    window.location.href = '/snake/en';
   } else {
     alert("Error");
   }
@@ -28,22 +28,22 @@ function tic_tac_toe() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/tic-tac-toe/en.html';
+    window.location.href = '/tic-tac-toe/en';
   } else {
     alert("Error");
   }
 }
 
 function game_select() {
-  window.location.href = '/select_game.html';
+  window.location.href = '/select_game';
 }
 
 function about() {
-  window.location.href = '/about.html';
+  window.location.href = '/about';
 }
 
 function home() {
-  window.location.href = '/home.html';
+  window.location.href = '/home';
 }
 
 function pong() {
@@ -52,7 +52,7 @@ function pong() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/pong/en.html';
+    window.location.href = '/pong/en';
   } else {
     alert("Error");
   }
@@ -64,14 +64,14 @@ function flappy_bird() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/flappy-bird/en.html';
+    window.location.href = '/flappy-bird/en';
   } else {
     alert("Error");
   }
 }
 
 function changelog() {
-  window.location.href = '/CHANGELOG.html';
+  window.location.href = '/CHANGELOG';
 }
 
 function two_zero_four_eight() {
@@ -80,7 +80,7 @@ function two_zero_four_eight() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/2048/en.html';
+    window.location.href = '/2048/en';
   } else {
     alert("Error");
   }
@@ -92,14 +92,14 @@ function etch_a_sketch() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/etch-a-sketch/en.html';
+    window.location.href = '/etch-a-sketch/en';
   } else {
     alert("Error");
   }
 }
 
 function mario_bros() {
-  window.location.href = '/mario-bros/start.html';
+  window.location.href = '/mario-bros/start';
 }
 
 function geometry_dash() {
@@ -108,7 +108,7 @@ function geometry_dash() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/geometry-dash/en.html';
+    window.location.href = '/geometry-dash/en';
   } else {
     alert("Error");
   }
@@ -120,7 +120,7 @@ function fnaf(game_num) {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = `/fnaf/fnaf${game_num}.html`;
+    window.location.href = `/fnaf/fnaf${game_num}`;
   } else {
     alert("Error");
   }
@@ -136,7 +136,7 @@ function chrome_dino_game() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/chrome-dino-game/en.html';
+    window.location.href = '/chrome-dino-game/en';
   } else {
     alert("Error");
   }
@@ -148,7 +148,7 @@ function slope() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/slope/en.html';
+    window.location.href = '/slope/en';
   } else {
     alert("Error");
   }
@@ -160,7 +160,7 @@ function bloxorz_2() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/bloxorz-2/en.html';
+    window.location.href = '/bloxorz-2/en';
   } else {
     alert("Error");
   }
@@ -172,7 +172,7 @@ function suika() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/suika/en.html';
+    window.location.href = '/suika/en';
   } else {
     alert("Error");
   }
