@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Site Style -->
+  <head>
+    <title>Mario | Games</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Cherry+Swash");
+      @import url("https://fonts.googleapis.com/css?family=Linefont");
+      @import url("https://fonts.googleapis.com/css?family=Lilita+One");
+      html {
+        width: 100%;
+        height: 100%;
+      }
+      h1 {
+        font-family: 'Lilita One';
+        font-size: 65px;
+      }
+      body {
+        background-color: #d1f7ff;
+      }
+      button {
+        box-shadow:inset 0px 1px 0px 0px #a4e271;
+        background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+        background-color:#89c403;
+        border-radius:6px;
+        border:1px solid #74b807;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Courier New;
+        font-size:21px;
+        font-weight:bold;
+        padding:10px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #528009;
+      }
+      button:hover {
+        background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+        background-color:#77a809;
+      }
+      button:active {
+        position:relative;
+        top:1px;
+      }
+      #spacer {
+        font-family: 'Linefont';
+      }
+      .newline {
+        margin-bottom: 20px;
+      }
+      .backbutton {
+        box-shadow:inset 0px 1px 0px 0px #9c0c0c;
+        background:linear-gradient(to bottom, #ff0000 5%, #730808 100%);
+        background-color:#ff0000;
+        border-radius:6px;
+        border:1px solid #ff8f8f;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:'Cherry Swash';
+        font-size:11px;
+        font-weight:bold;
+        padding:3px 11px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #000000;
+      }
+      .backbutton:hover {
+        background:linear-gradient(to bottom, #730808 5%, #ff0000 100%);
+        background-color:#730808;
+      }
+      .backbutton:active {
+        position:relative;
+        top:1px;
+      }
+    </style>
+  </head>
+  <!-- Main Code -->
+  <body>
+    <script>
+      function game() {
+        var enabled = true;
+        if (enabled == false) {
+          var reason = "";
+          alert(`Currently Disabled. Reason:\n${reason}`);
+        } else if (enabled == true) {
+          window.location.href = '/mario-bros/en';
+        } else {
+          alert("Error");
+        }
+      }
+    </script>
+    <script src="/open_page.js"></script>
+    <button onclick="game_select()" class="backbutton">Back To Game Selection</button>
+    <center>
+      <h1>Super Mario Bros</h1>
+      <div class="newline">
+        <p id="spacer">
+          lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+        </p>
+      </div>
+      <div class="newline">
+        <button onclick="game()">Play</button>
+      </div>
+    </center>
+  </body>
+</html>
