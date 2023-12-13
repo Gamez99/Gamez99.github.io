@@ -177,3 +177,15 @@ function suika() {
     alert("Error");
   }
 }
+
+function tetris() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/tetris/en';
+  } else {
+    alert("Error");
+  }
+}
