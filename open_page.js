@@ -179,9 +179,9 @@ function suika() {
 }
 
 function tetris() {
-  var enabled = true;
+  var enabled = false;
   if (enabled == false) {
-    var reason = "";
+    var reason = "Not Working";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
     window.location.href = '/tetris/en';
