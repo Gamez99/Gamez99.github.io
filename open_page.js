@@ -1,3 +1,5 @@
+// All Made By Me
+
 function cookie_clicker() {
   var enabled = true;
   if (enabled == false) {
