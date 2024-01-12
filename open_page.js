@@ -177,3 +177,15 @@ function suika() {
     alert("Error");
   }
 }
+
+function subway_surfers() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/subway-surfers/en';
+  } else {
+    alert("Error");
+  }
+}
