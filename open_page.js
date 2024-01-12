@@ -189,3 +189,15 @@ function subway_surfers() {
     alert("Error");
   }
 }
+
+function fruit_ninja() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/fruit-ninja/en';
+  } else {
+    alert("Error");
+  }
+}
