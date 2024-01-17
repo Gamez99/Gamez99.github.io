@@ -186,7 +186,7 @@ function subway_surfers() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/subway-surfers/en';
+    window.location.href = '/subway-surfers/select';
   } else {
     alert("Error");
   }
