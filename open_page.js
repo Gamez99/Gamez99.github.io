@@ -203,3 +203,15 @@ function fruit_ninja() {
     alert("Error");
   }
 }
+
+function dream_about_the_past() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/dream-about-the-past/en';
+  } else {
+    alert("Error");
+  }
+}
