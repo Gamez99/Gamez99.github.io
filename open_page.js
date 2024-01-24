@@ -181,9 +181,9 @@ function suika() {
 }
 
 function subway_surfers() {
-  var enabled = true;
+  var enabled = false;
   if (enabled == false) {
-    var reason = "";
+    var reason = "Iframe broken";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
     window.location.href = '/subway-surfers/select';
