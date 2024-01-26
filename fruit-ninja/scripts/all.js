@@ -407,12 +407,12 @@ define("scripts/main.js", function(exports){
 	
 	    [ timeline, sence, control ].invoke( "init" );
 	
-	    log( "code-projects.org" );
-	    log( "code-projects.org" );
-		log( "code-projects.org" );
-	    log( "code-projects.org" );
-	    log( "code-projects.org" );
-		log( "code-projects.org" );
+	    log( "Loading..." );
+	    log( "Loading..." );
+		log( "Loading..." );
+	    log( "Loading..." );
+	    log( "Loading..." );
+		log( "Loading..." );
 	    log.clear();
 	
 	    setTimeout( sence.switchSence.saturate( sence, "home-menu" ), 3000 );
