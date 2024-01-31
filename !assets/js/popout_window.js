@@ -3,7 +3,7 @@ function open_popup_window() {
 }
 
 document.addEventListener('keydown', function(event) {
-  if (event.altKey && and event.key == '`') {
+  if (event.key == 'o') {
     open_popup_window();
     this.location.close();
   }
