@@ -234,7 +234,7 @@ function super_mario_64() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.open("https://hollodoescode.github.io/controls.html", "popout", "width=500,height=500");
+    window.open("https://hollodoescode.github.io/super-mario-64/controls.html", "popout", "width=500,height=500");
     window.location.href = '/super-mario-64/en';
   } else {
     alert("Error");
