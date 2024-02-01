@@ -215,3 +215,15 @@ function dream_about_the_past() {
     alert("Error");
   }
 }
+
+function doom() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/doom/en';
+  } else {
+    alert("Error");
+  }
+}
