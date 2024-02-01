@@ -227,3 +227,15 @@ function doom() {
     alert("Error");
   }
 }
+
+function super_mario_64() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/super-mario-64/en';
+  } else {
+    alert("Error");
+  }
+}
