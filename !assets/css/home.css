@@ -78,7 +78,7 @@ a:hover {
 #content {
   position: relative;
 }
-#content img {
+#content .ribbon {
   position: absolute;
   top: 0px;
   right: 0px;
