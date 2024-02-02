@@ -75,3 +75,11 @@ a:hover {
         opacity: 0;
     }
 }
+#content {
+  position: relative;
+}
+#content img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
