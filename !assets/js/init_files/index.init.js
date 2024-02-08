@@ -7,6 +7,7 @@ const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/
 
 let userbrowser;
 let userclient;
+let lang;
 
 if (isMobile) {
     userclient = 'mobile';
@@ -34,4 +35,6 @@ if (userAgent.includes('Chrome')) {
     userbrowser = "unknown-browser";
 }
 
-window.location.href = `/home?browser=${userbrowser}&client=${userclient}&lang=en`;
+lang = 'en';
+
+window.location.href = `/home?browser=${userbrowser}&client=${userclient}&lang=${en}`;
