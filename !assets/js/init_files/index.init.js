@@ -2,29 +2,36 @@ const userAgent = navigator.userAgent;
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
+const url = 'https://hollodoescode.github.io';
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+
+let userbrowser;
 let userclient;
-let href;
+
+if (isMobile) {
+    userclient = 'mobile';
+} else {
+    userclient = 'pc';
+}
 
 if (userAgent.includes('Chrome')) {
     console.log('User is using Chrome');
-    userclient = "chrome";
+    userbrowser = "chrome";
 } else if (userAgent.includes('Firefox')) {
     console.log('User is using Firefox');
-    userclient = "firefox";
+    userbrowser = "firefox";
 } else if (userAgent.includes('Safari')) {
     console.log('User is using Safari');
-    userclient = "safari";
+    userbrowser = "safari";
 } else if (userAgent.includes('Edge')) {
     console.log('User is using Edge');
-    userclient = "edge";
+    userbrowser = "edge";
 } else if (userAgent.includes('MSIE') || userAgent.includes('Trident/')) {
     console.log('User is using Internet Explorer');
-    userclient = "IE";
+    userbrowser = "IE";
 } else {
     console.log('User is using an unknown browser');
-    userclient = "unknown-browser";
+    userbrowser = "unknown-browser";
 }
 
-href = `/home?client=${userclient}&lang=en`;
-
-window.location.href = href;
+window.location.href = `/home?browser=${userbrowser}&client=${userclient}&lang=en`;
