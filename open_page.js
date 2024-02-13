@@ -240,3 +240,15 @@ function super_mario_64() {
     alert("Error");
   }
 }
+
+function _1v1_lol() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/cookie-clicker/en';
+  } else {
+    alert("Error");
+  }
+}
