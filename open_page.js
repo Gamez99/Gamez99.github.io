@@ -247,7 +247,7 @@ function _1v1_lol() {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
-    window.location.href = '/cookie-clicker/en';
+    window.location.href = '/1v1.lol/en';
   } else {
     alert("Error");
   }
