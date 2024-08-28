@@ -242,7 +242,7 @@ function super_mario_64() {
 }
 
 function _1v1_lol() {
-  var enabled = true;
+  var enabled = false;
   if (enabled == false) {
     var reason = "";
     alert(`Currently Disabled. Reason:\n${reason}`);
