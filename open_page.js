@@ -244,7 +244,7 @@ function super_mario_64() {
 function _1v1_lol() {
   var enabled = false;
   if (enabled == false) {
-    var reason = "";
+    var reason = "Not working";
     alert(`Currently Disabled. Reason:\n${reason}`);
   } else if (enabled == true) {
     window.location.href = '/1v1.lol/en';
