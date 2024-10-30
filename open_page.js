@@ -252,3 +252,15 @@ function _1v1_lol() {
     alert("Error");
   }
 }
+
+function run_3() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/run-3/en';
+  } else {
+    alert("Error");
+  }
+}
