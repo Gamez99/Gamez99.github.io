@@ -264,3 +264,15 @@ function run_3() {
     alert("Error");
   }
 }
+
+function block_blast() {
+  var enabled = true;
+  if (enabled == false) {
+    var reason = "";
+    alert(`Currently Disabled. Reason:\n${reason}`);
+  } else if (enabled == true) {
+    window.location.href = '/block-blast/en';
+  } else {
+    alert("Error");
+  }
+}
